@@ -10,7 +10,7 @@ const myapp = express();
 myapp.use(Cors());
 myapp.use(express.json());
 
-myapp.post('/',(req,res)=>{
+myapp.get('/',(req,res)=>{
   res.json({'Message': 'we are working'});
 });
 
